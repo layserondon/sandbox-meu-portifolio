@@ -4,32 +4,14 @@ import { cn } from "@/lib/utils";
 
 const PROJECTS = [
   {
-    id: "atlas",
-    name: "Atlas Automations",
-    short: "Robô de coleta e organização de dados operacionais.",
-    problem: "Relatórios manuais consumiam horas por semana em planilhas repetidas.",
-    tech: ["Python", "Playwright", "SQLite", "Pandas"],
-    architecture: "Coletor agendado → normalização em Python → persistência local → exportação de relatório.",
-    features: ["Execução agendada", "Log de falhas", "Exportação CSV/Excel", "Reprocessamento seguro"],
-  },
-  {
-    id: "orbit",
-    name: "Orbit Panel",
-    short: "Painel web para acompanhar indicadores de um pequeno negócio.",
-    problem: "Dados espalhados impediam uma leitura rápida do desempenho.",
-    tech: ["React", "FastAPI", "PostgreSQL"],
-    architecture: "SPA em React → API REST em FastAPI → banco relacional com consultas agregadas.",
-    features: ["Indicadores em tempo real", "Filtros por período", "Layout responsivo", "Estados de carregamento"],
-  },
-  {
-    id: "vera",
-    name: "Vera Assistant",
-    short: "Agente de IA que responde e encaminha solicitações de clientes.",
-    problem: "Atendimento inicial repetitivo atrasava demandas realmente complexas.",
-    tech: ["OpenAI API", "Python", "FastAPI", "Prompt Engineering"],
-    architecture: "Camada de intenção → agente com ferramentas → integração por API → registro de conversas.",
-    features: ["Respostas contextuais", "Encaminhamento por regra", "Histórico auditável", "Limites de custo"],
-  },
+    id: "financeiro",
+    name: "ControleBrasil",
+    short: "Software de planejamento financeiro pessoal e familiar do brasileiro.",
+    problem: "A falta de controle e visão sobre gastos simples e aumento de dívidas desnecessárias e imprevisíveis.",
+    tech: ["Python","React", "PostgreSQL"],
+    architecture: "Cadastrar Receita → React → API (FastAPI) → Validação → PostgreSQL → Atualizar Dashboard → Exibir Novo Saldo",
+    features: ["Dashboard • Controle de Receitas e Despesas • Metas Financeiras • Relatórios"],
+  }
 ];
 
 export function ProjectsSection() {
@@ -108,7 +90,7 @@ export function ProjectsSection() {
 
                     <div className="mt-5 flex flex-wrap gap-2">
                       <a
-                        href="https://github.com/"
+                        href="https://github.com/layserondon/Portifolio-Meu-Primeiro-Software"
                         target="_blank"
                         rel="noreferrer noopener"
                         className="panel-flat px-3 py-2 font-mono text-[0.7rem] text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary"
@@ -116,12 +98,12 @@ export function ProjectsSection() {
                         repositório
                       </a>
                       <a
-                        href="https://github.com/"
+                        href=""
                         target="_blank"
                         rel="noreferrer noopener"
                         className="panel-flat glow-edge px-3 py-2 font-mono text-[0.7rem] text-primary"
                       >
-                        demonstração
+                        abrir app
                       </a>
                     </div>
                   </div>

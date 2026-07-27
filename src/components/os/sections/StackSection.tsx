@@ -9,7 +9,7 @@ const MODULES = [
   { id: "db", title: "Bancos de Dados", items: ["SQLite", "PostgreSQL"] },
   { id: "auto", title: "Automação", items: ["Selenium", "Playwright", "APIs REST"] },
   { id: "ia", title: "Inteligência Artificial", items: ["OpenAI API", "Prompt Engineering", "Agentes de IA"] },
-  { id: "tools", title: "Ferramentas", items: ["Git", "GitHub", "VS Code", "Figma"] },
+  { id: "tools", title: "Ferramentas", items: ["Git", "GitHub", "VS Code"] },
 ];
 
 export function StackSection() {
@@ -22,7 +22,7 @@ export function StackSection() {
   return (
     <Stage
       eyebrow="módulos técnicos"
-      title="Tecnologias que eu ativo em cada camada"
+      title="Ciclo de tecnologias que eu ativo gradualmente"
       intro="Abra um módulo para inspecionar o conjunto de ferramentas correspondente."
     >
       <div className="grid gap-3 lg:grid-cols-[1.6fr_1fr]">
@@ -90,7 +90,7 @@ export function StackSection() {
             </div>
             <div className="flex justify-between">
               <dt className="text-muted-foreground">uso</dt>
-              <dd>projetos práticos</dd>
+              <dd>projetos práticos/em construção</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-muted-foreground">módulos totais</dt>

@@ -6,10 +6,10 @@ const CAPABILITIES = [
   { name: "Resolução de Problemas", value: 88, note: "hipótese, teste, ajuste, documentação" },
   { name: "Atenção aos Detalhes", value: 90, note: "revisão de estados, bordas e exceções" },
   { name: "Mentalidade de Automação", value: 86, note: "tarefas repetitivas viram scripts" },
-  { name: "Aprendizado Contínuo", value: 95, note: "ciclo semanal de estudo e aplicação" },
-  { name: "Código Limpo", value: 84, note: "nomes claros, funções curtas, baixo acoplamento" },
+  { name: "Aprendizado Rápido e Contínuo", value: 95, note: "ciclo diário de estudo e aplicação" },
+  { name: "Código Limpo", value: 80, note: "nomes claros, funções curtas, baixo acoplamento" },
   { name: "Adaptabilidade", value: 89, note: "troca de contexto sem perda de qualidade" },
-  { name: "Percepção de UI/UX", value: 82, note: "decisões de interface guiadas por uso real" },
+  { name: "Percepção de UI/UX", value: 76, note: "decisões de interface funcionais para uso real" },
 ];
 
 export function DiagnosticsSection() {

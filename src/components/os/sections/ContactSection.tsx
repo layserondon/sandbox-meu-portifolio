@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { Stage } from "../primitives";
 
 const CHANNELS = [
-  { id: "email", label: "E-mail", value: "layse.rondon@exemplo.com", href: "mailto:layse.rondon@exemplo.com" },
-  { id: "linkedin", label: "LinkedIn", value: "/in/layserondon", href: "https://www.linkedin.com/" },
-  { id: "github", label: "GitHub", value: "@layserondon", href: "https://github.com/" },
-  { id: "whatsapp", label: "WhatsApp", value: "Mensagem direta", href: "https://wa.me/" },
+  { id: "email", label: "E-mail", value: "layse.srondon02@gmail.com", href: "mailto:layse.srondon02@gmail.com" },
+  { id: "linkedin", label: "LinkedIn", value: "/in/layserondon", href: "https://www.linkedin.com/in/layse-rondon" },
+  { id: "github", label: "GitHub", value: "@layserondon", href: "https://github.com/layserondon" },
+  { id: "whatsapp", label: "WhatsApp", value: "Mensagem direta", href: "https://wa.me/11997980272" },
 ];
 
-const HANDSHAKE = ["negociando conexão", "verificando chave", "canal criptografado", "canal aberto"];
+const HANDSHAKE = ["negociando conexão", "verificando chave", "canal aberto"];
 
 export function ContactSection() {
   const [step, setStep] = useState(0);
@@ -23,8 +23,8 @@ export function ContactSection() {
   return (
     <Stage
       eyebrow="canal de comunicação"
-      title="Vamos abrir um canal de trabalho"
-      intro="Escolha o meio mais confortável — a resposta vem pelo mesmo canal."
+      title="Vamos conversar sobre seu projeto."
+      intro="Escolha o canal de contato que preferir. Responderei pelo mesmo meio."
     >
       <div className="grid gap-3 lg:grid-cols-[1fr_1.1fr]">
         <div className="panel assemble p-5" style={{ "--d": "140ms" } as React.CSSProperties}>
@@ -40,10 +40,10 @@ export function ContactSection() {
           </ul>
           <div className="hairline my-4" />
           <p className="text-base leading-relaxed text-foreground/90">
-            Pronta para construir software inteligente.
+            Pronta para construir seu software inteligente.
           </p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Vamos criar soluções que automatizam, simplificam e melhoram fluxos de trabalho reais.
+            Vamos criar soluções que automatizam, simplificam e melhoram seu fluxo de trabalho.
           </p>
           <div
             className="mt-5 flex items-center gap-2 font-mono text-[0.68rem]"

@@ -30,8 +30,6 @@ export function BootSection() {
             style={{ "--d": "80ms" } as React.CSSProperties}
           >
             <span className="live-dot inline-block size-1.5 rounded-full bg-primary" />
-            <span className="label-mono">interface inicializada</span>
-          </div>
 
           <h1
             className="assemble-left mt-6 text-4xl font-semibold tracking-[-0.03em] sm:text-6xl lg:text-7xl"
@@ -44,7 +42,7 @@ export function BootSection() {
             className="assemble-left mt-3 text-lg text-muted-foreground sm:text-xl"
             style={{ "--d": "280ms" } as React.CSSProperties}
           >
-            Desenvolvedora de Software
+            Desenvolvedora Full Stack
           </p>
 
           <div
@@ -53,7 +51,7 @@ export function BootSection() {
           />
 
           <ul className="flex flex-wrap gap-2">
-            {["Python", "React", "Automação com IA", "Aplicações Web"].map((t, i) => (
+            {["Python", "React", "Automação com IA", "Automação com N8N", "Aplicações Web"].map((t, i) => (
               <li
                 key={t}
                 className="panel-flat assemble px-3 py-1.5 font-mono text-[0.7rem] tracking-wide text-foreground/85"
@@ -65,7 +63,7 @@ export function BootSection() {
           </ul>
 
           <div className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2">
-            {["Construir.", "Aprender.", "Automatizar."].map((word, i) => (
+            {["Aprender.","Construir.", "Automatizar."].map((word, i) => (
               <span
                 key={word}
                 className="type-in signal-text text-xl font-medium tracking-tight sm:text-2xl"

@@ -3,10 +3,10 @@ import { Meter, Panel, Stage } from "../primitives";
 
 const AVAILABILITY = ["Aberta para estágio", "Aberta para freelance", "Aberta para colaborações"];
 const FOCUS = [
-  { label: "Python", value: 88 },
-  { label: "React", value: 74 },
-  { label: "Automação com IA", value: 81 },
-  { label: "Desenvolvimento Full Stack", value: 66 },
+  { label: "Python", value: 60 },
+  { label: "React", value: 30 },
+  { label: "Automação com IA", value: 42 },
+  { label: "Desenvolvimento Full Stack", value: 60 },
   { label: "Inteligência Artificial", value: 71 },
 ];
 

@@ -5,7 +5,7 @@ const SERVICES = [
   { code: "SV-02", title: "Landing Pages", value: "Páginas focadas em conversão, com mensagem e ação diretas." },
   { code: "SV-03", title: "Aplicações Web Modernas", value: "Interfaces reativas para operações do dia a dia." },
   { code: "SV-04", title: "Sistemas para Negócios", value: "Cadastro, controle e relatórios no lugar de planilhas soltas." },
-  { code: "SV-05", title: "Automação com IA", value: "Tarefas repetitivas executadas sem intervenção humana." },
+  { code: "SV-05", title: "Automação e Integrações com IA", value: "Tarefas repetitivas executadas sem intervenção humana." },
   { code: "SV-06", title: "Integrações de API", value: "Sistemas diferentes trocando dados sem retrabalho." },
   { code: "SV-07", title: "Interfaces Responsivas", value: "Mesma qualidade de uso em celular, tablet e desktop." },
   { code: "SV-08", title: "Otimização de Performance", value: "Menos espera, mais retenção e melhor posicionamento." },
@@ -15,8 +15,8 @@ export function ServicesSection() {
   return (
     <Stage
       eyebrow="módulos de atuação"
-      title="O que eu coloco em operação para um negócio"
-      intro="Cada módulo entrega um resultado prático, não apenas uma entrega técnica."
+      title="Sluções que gerem resultado"
+      intro="Cada módulo resolve um problema real do seu negócio e contribui para reduzir trabalho manual e aumentar a eficiência."
     >
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
         {SERVICES.map((s, i) => (
