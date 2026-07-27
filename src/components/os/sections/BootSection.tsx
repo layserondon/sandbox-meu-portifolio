@@ -30,6 +30,8 @@ export function BootSection() {
             style={{ "--d": "80ms" } as React.CSSProperties}
           >
             <span className="live-dot inline-block size-1.5 rounded-full bg-primary" />
+            <span className="label-mono">portfólio interativo</span>
+          </div>
 
           <h1
             className="assemble-left mt-6 text-4xl font-semibold tracking-[-0.03em] sm:text-6xl lg:text-7xl"
